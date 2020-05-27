@@ -1,0 +1,176 @@
+body{
+    box-sizing: border-box;
+    background: lightgray;
+    margin: 0px; 
+    font-family: 'Raleway', sans-serif; 
+}
+header{
+    height: 75px;
+    width: 100%;
+    background: linear-gradient(35deg, #241e1e, #6b5c5c, gray) ; 
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#logo{
+    height: 100%;
+    width: auto;
+    margin: 0 15px;
+}
+.nav-menu{
+    padding: 20px 50px; 
+ flex-wrap: nowrap;
+}
+.nav-menu a{
+    margin: 0px 30px;
+    color: white; 
+    text-decoration: none ;
+}
+.room-image{
+    margin-top: 65px;
+    width: 100%;
+}
+#book-now{
+    width: 250px; 
+    height: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0px 30px; 
+   padding: 0px 30px;
+   color: white ;
+   position: absolute;
+   left: 0px;
+   top: 90px; 
+   z-index: 10;
+}
+.form-title{
+   opacity: 1;
+   background: #696969;
+   flex: display;
+   flex-direction: row;
+   padding: 10px 20px 2px;   
+   border-radius: 10px 10px 0px 0px ;
+}
+.form-content{
+    border-radius: 0px 0px 10px 10px; 
+    opacity: 0.5;
+    color: white;
+    background: gray; 
+   padding: 0px 20px 20px;    
+}
+h1{
+    font-size: 40px; 
+}
+h2{ 
+    font-size: 30px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px; 
+}
+.intro{
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+height: 300px;
+width: 100%;
+}
+.intro p{
+    margin: 0px 30px;
+}
+.image-intro{
+    height: 25%;
+    width: auto; 
+    border-radius: 50%;
+
+}
+#facilities{
+    background: gray; 
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px; 
+}
+#facilities i{
+    color: #FFC400; 
+}
+#facilities li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+#breakfast{
+    height: 400px;
+    width: 100%;  
+    text-align: center;    
+}
+.image-container{
+    height: 350px ; 
+    width: 450px; 
+    float: left;
+    margin: 10px 10px 10px 30px ;
+}
+.breakfast-info{
+    float: right; 
+    width: 60%;
+    height: 100px; 
+    margin: 10px 40px 10px 10px; 
+    font-size: 25px;   
+}
+.image1{
+    height: 50%;
+    width: 100%; 
+}
+.image2{
+    height: 50%;
+    width: 50%; 
+    float: left;
+}
+.image3{
+    height: 50%;
+    width: 50%; 
+    float: right;  
+}
+#gallery{
+    height: 400px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: #787878;
+    text-align: center;
+}
+.image-container-gallery{
+    height: 300px;
+    width: 100%;
+}
+.image-gallery{
+    height: 100%;
+    width: auto;
+}
+#contact{
+    background: black;
+    height: 50px; 
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.social-media{
+    height: 100%;
+    width: auto; 
+}
