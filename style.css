@@ -5,8 +5,8 @@ body{
     font-family: 'Raleway', sans-serif; 
 }
 header{
-    height: 75px;
     width: 100%;
+    height: 75px;
     background: linear-gradient(35deg, #241e1e, #6b5c5c, gray) ; 
     display: flex; 
     flex-direction: row;
@@ -23,17 +23,15 @@ header{
     width: auto;
     margin: 0 15px;
 }
-.nav-menu{
-    padding: 20px 50px; 
- flex-wrap: nowrap;
-}
 .nav-menu a{
-    margin: 0px 30px;
+    padding: 0px 30px;
     color: white; 
     text-decoration: none ;
 }
+.book{
+    margin-top: 75px;
+}
 .room-image{
-    margin-top: 65px;
     width: 100%;
 }
 #book-now{
@@ -42,7 +40,6 @@ header{
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin: 0px 30px; 
    padding: 0px 30px;
    color: white ;
    position: absolute;
@@ -51,6 +48,8 @@ header{
    z-index: 10;
 }
 .form-title{
+    height: auto;
+    width: 100%;
    opacity: 1;
    background: #696969;
    flex: display;
@@ -59,6 +58,8 @@ header{
    border-radius: 10px 10px 0px 0px ;
 }
 .form-content{
+    height: auto;
+    width: 100%;
     border-radius: 0px 0px 10px 10px; 
     opacity: 0.5;
     color: white;
@@ -72,6 +73,7 @@ h2{
     font-size: 30px;
 }
 #intro{
+    width: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,9 +92,12 @@ width: 100%;
 }
 .image-intro{
     height: 25%;
-    width: auto; 
+    border: 5px solid darkgray; 
     border-radius: 50%;
-
+    transition: 0.5s;
+}
+.image-intro:hover{
+    transform: scale(1.5); 
 }
 #facilities{
     background: gray; 
