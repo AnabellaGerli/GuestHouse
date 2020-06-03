@@ -77,40 +77,45 @@ h1{
 h2{ 
     font-size: 30px;
 }
-#intro{
+
+#intro{ 
+    height: 450px;
     width: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 350px;
 }
 .intro{
 display: flex;
 flex-direction: row;
-height: 250px;
-width: 100%;
+justify-content: center;
+height: 350px;
 }
-.intro-details{
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 100%;
-width: auto;
-}
-.intro p{
-    padding: 0px 30px;
-}
+
 .image-intro{
-    height: 25%;
+    height: 100px;
     width: auto;
     border: 5px solid darkgray; 
     border-radius: 50%;
     transition: 0.5s;
 }
+
 .image-intro:hover{
     transform: scale(1.5); 
 }
-#facilities{
+
+.intro-details{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100%;
+width: 25%;
+padding: 0px 30px;
+}
+
+
+
+#facilities {
     position: relative;
     background: gray; 
     color: white;
@@ -214,8 +219,6 @@ width: auto;
         font-size: 30px;
         text-align: center;
     }
-
-
     #breakfast{
         display: flex;
         flex-direction: column;
@@ -232,8 +235,7 @@ width: auto;
         width: 250px;
         padding: 0px 0px;
         }
-
-     #gallery{
+    #gallery{
         height: 800px; 
         width: 100%;
         background: #787878;
@@ -269,17 +271,17 @@ width: auto;
     }
 
     #intro{
-        height: 1100px;
+        height: 1000px;
     }
-    .intro{
-        flex-direction: column;
-    }
-    .intro-details{
-        margin-top: 40px ;
-    }
-    .intro p{
-        font-size: 20px;
-    }
+.intro{
+    flex-direction: column;
+    height: 900px
+}
+.intro-details{
+    width: 100%;
+    height: auto;
+}
+
 
     #facilities h2{
         font-size: 25px;
@@ -309,9 +311,4 @@ width: auto;
  
     
     }
-    
-
-
-
-
 }
