@@ -113,8 +113,6 @@ width: 25%;
 padding: 0px 30px;
 }
 
-
-
 #facilities {
     position: relative;
     background: gray; 
@@ -177,29 +175,61 @@ padding: 0px 30px;
     width: 50%; 
     float: right;  
 }
+
 #gallery{
-    position: relative;
-    height: 400px; 
+    height: 500px; 
     width: 100%;
     background: #787878;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#gallery-start{
-    position: absolute;
-    height: 75px;
-    top: -75;
-}
+
 .image-container-gallery{
-    height: 300px;
+    height: 800px;
     width: 100%;
-    text-align: center;
+    position: relative;
 }
+
+#image-carousel{
+    height: 400px;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    left: 0px;
+}
+
 .image-gallery{
-    height: 100%;
-    width: auto;
+    height: 100% ;
+    width: 100% ;
+    padding: 5px;
 }
+
+#button-left{
+    position: absolute;
+    z-index: 1;
+    margin-top: -200;
+}
+
+#button-left i{
+    font-size: 35px
+}
+
+
+#button-right{
+    position: absolute;
+    z-index: 1;
+    margin-top: -200;
+    margin-left: 1470;
+}
+
+#button-right i{
+        font-size: 35px
+}
+
 #contact{
     background: black;
     height: 50px; 
