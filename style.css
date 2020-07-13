@@ -150,7 +150,7 @@ padding: 0px 30px;
 }
 .image-container{
     height: 350px ; 
-    width: 20%; 
+    width: 25%; 
     float: left;
     padding: 10px 10px 10px 30px ;
 }
@@ -185,50 +185,60 @@ padding: 0px 30px;
     align-items: center;
 }
 
-.image-container-gallery{
-    height: 800px;
-    width: 100%;
+
+#images{
     position: relative;
+    height: 400px;
+    width: 100%;
+}
+.image-container-gallery{
+    height: 310px;    
+    background-color: lightgray;
+    overflow-x: hidden;
+    
 }
 
 #image-carousel{
-    height: 400px;
-    width: 100%;
-    background-color: lightgray;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: relative;
     left: 0px;
+    
 }
 
 .image-gallery{
-    height: 100% ;
-    width: 100% ;
+    height: 300px ;
+    width:500px ;
+    margin: 5px;
     padding: 5px;
+}
+
+.image-gallery img {
+    height: 100%;
 }
 
 #button-left{
     position: absolute;
     z-index: 1;
-    margin-top: -200;
+    top: 150px;
+    left: 20px;
+    opacity: 0.5;
 }
 
-#button-left i{
+#gallery i{
+    text-shadow: 2px 2px #20202088;
     font-size: 35px
 }
 
-
-#button-right{
+#button-right{ 
     position: absolute;
     z-index: 1;
-    margin-top: -200;
-    margin-left: 1470;
+    top: 150px;
+    right: 20px;
+    opacity: 0.5;
 }
 
-#button-right i{
-        font-size: 35px
-}
 
 #contact{
     background: black;
@@ -262,7 +272,7 @@ padding: 0px 30px;
     }
     .image-container{
         height: 200px ; 
-        width: 250px;
+        width: 300px;
         padding: 0px 0px;
         }
     #gallery{
@@ -273,9 +283,9 @@ padding: 0px 30px;
     }
     .image-container-gallery{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        height: 600px;  
+        height: 400px;  
     }
     .image-gallery{
         height: 200px;
