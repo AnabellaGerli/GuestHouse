@@ -276,22 +276,13 @@ padding: 0px 30px;
         padding: 0px 0px;
         }
     #gallery{
-        height: 800px; 
+        height:400px; 
         width: 100%;
         background: #787878;
         text-align: center;
     }
-    .image-container-gallery{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        height: 400px;  
-    }
-    .image-gallery{
-        height: 200px;
-        width: auto;
-        padding: 10px;
-    }
+    
+    
 
 }
 

@@ -10,17 +10,19 @@ console.log(buttonRight)
 
 buttonRight.onclick = () => {
     clicks++;
-    carousel.style.left = "-500" * clicks + "px" ;
-    if (viewportWidth > "900" && clicks >= 2)
-    {clicks = 2}
+    carousel.style.left = "-350" * clicks + "px" ;
+    if (viewportWidth > "900" && clicks >= 5)
+    {clicks = 5}
+    if (viewportWidth < "900" && clicks >= 7)
+    {clicks = 7}
 }
 
 buttonLeft.onclick = () => {
     clicks --;
-    if (viewportWidth > "900" && clicks <= 0) {
+    if (viewportWidth > "0" && clicks <= 0) {
         clicks = 0
     }
 
-    carousel.style.left = "-500" * clicks + "px";
+    carousel.style.left = "-350" * clicks + "px";
 
 }
